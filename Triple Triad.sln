@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TripleTriad", "Domain\TripleTriad\TripleTriad.csproj", "{F6A9B7BC-8149-4C26-BEF1-B8B54EF0F20B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TripleTriad.UnitTest", "Tests\TripleTriad.UnitTest\TripleTriad.UnitTest.csproj", "{1C4B98A6-AD6C-4C92-A00D-60EEF7183F09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{7128189D-95E2-4D26-A0ED-367B9256F49B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{03EC8431-FAC1-40AA-84F3-1B07B6397540}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{5A210A18-DF56-4D73-AEC6-E3318AE46E26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripleTriadWebApplication", "Presentation\TripleTriadWebApplication\TripleTriadWebApplication.csproj", "{2063288A-0783-48A1-B518-68EECD04385F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6A9B7BC-8149-4C26-BEF1-B8B54EF0F20B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A9B7BC-8149-4C26-BEF1-B8B54EF0F20B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A9B7BC-8149-4C26-BEF1-B8B54EF0F20B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A9B7BC-8149-4C26-BEF1-B8B54EF0F20B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4B98A6-AD6C-4C92-A00D-60EEF7183F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4B98A6-AD6C-4C92-A00D-60EEF7183F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4B98A6-AD6C-4C92-A00D-60EEF7183F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4B98A6-AD6C-4C92-A00D-60EEF7183F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2063288A-0783-48A1-B518-68EECD04385F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2063288A-0783-48A1-B518-68EECD04385F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2063288A-0783-48A1-B518-68EECD04385F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2063288A-0783-48A1-B518-68EECD04385F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F6A9B7BC-8149-4C26-BEF1-B8B54EF0F20B} = {7128189D-95E2-4D26-A0ED-367B9256F49B}
+		{1C4B98A6-AD6C-4C92-A00D-60EEF7183F09} = {03EC8431-FAC1-40AA-84F3-1B07B6397540}
+		{2063288A-0783-48A1-B518-68EECD04385F} = {5A210A18-DF56-4D73-AEC6-E3318AE46E26}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16C8112C-76E4-40D9-AAE6-22239BF52D66}
+	EndGlobalSection
+EndGlobal
