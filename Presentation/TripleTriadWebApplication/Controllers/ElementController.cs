@@ -4,7 +4,8 @@ using TripleTriad.Helpers;
 
 namespace TripleTriadWebApplication.Controllers
 {
-    [ApiController, Route("elements")]
+    [ApiController]
+    [Route("elements")]
     public class ElementController : ControllerBase
     {
         [HttpGet]

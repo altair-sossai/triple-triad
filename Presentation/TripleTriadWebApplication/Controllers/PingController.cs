@@ -3,7 +3,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace TripleTriadWebApplication.Controllers
 {
-    [ApiController, Route("[controller]")]
+    [ApiController]
+    [Route("[controller]")]
     public class PingController : ControllerBase
     {
         private static readonly Guid InstanceId = Guid.NewGuid();

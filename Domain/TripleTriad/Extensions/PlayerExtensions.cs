@@ -49,11 +49,6 @@ namespace TripleTriad.Extensions
             return playerId == null ? null : players.FirstOrDefault(p => p.Id == playerId.Value);
         }
 
-        public static Player Find(this IEnumerable<Player> players, Guid playerId)
-        {
-            return players.FirstOrDefault(p => p.Id == playerId);
-        }
-
         public static bool Contains(this IEnumerable<Player> players, Guid playerId)
         {
             return players.Any(p => p.Id == playerId);

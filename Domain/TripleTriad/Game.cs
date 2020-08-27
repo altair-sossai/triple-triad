@@ -56,9 +56,7 @@ namespace TripleTriad
 
         private void UpdateScoreboard()
         {
-            if (Scoreboard == null)
-                Scoreboard = new Dictionary<Guid, int>();
-
+            Scoreboard ??= new Dictionary<Guid, int>();
             Scoreboard.Update(this);
         }
     }

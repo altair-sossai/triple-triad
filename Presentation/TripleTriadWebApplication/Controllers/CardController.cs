@@ -5,7 +5,8 @@ using TripleTriad.Builders;
 
 namespace TripleTriadWebApplication.Controllers
 {
-    [ApiController, Route("cards")]
+    [ApiController]
+    [Route("cards")]
     public class CardController : ControllerBase
     {
         private static readonly List<Card> Cards = new List<Card>

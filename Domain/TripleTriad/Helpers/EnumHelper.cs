@@ -12,7 +12,7 @@ namespace TripleTriad.Helpers
         {
             return enumValue
                 .GetType()
-                .GetMember(enumValue.ToString())
+                .GetMember(enumValue.ToString()!)
                 .FirstOrDefault()
                 ?.GetCustomAttribute<DescriptionAttribute>()
                 ?.Description ?? enumValue.ToString();
